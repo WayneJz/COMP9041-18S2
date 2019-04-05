@@ -1,0 +1,15 @@
+15/10/18     13:00   15:00   level 0 completed
+16/10/18     07:00   11:00   level 1 login-register completed
+18/10/18     19:00   21:00   level 1 completed, css adjustment
+20/10/18     10:00   15:00   level 2 completed
+21/10/18     13:00   19:00   level 2 modified, images trigger events
+22/10/18     14:00   16:00   level 2 modified, some UI designed
+23/10/18     10:00   12:00   level 2 bug fixed: user profile
+24/10/18     07:00   11:00   level 3 start
+24/10/18     13:00   16:00   level 3 live update completed
+25/10/18     11:00   14:00   level 3 update user's account
+25/10/18     18:00   20:00   designing UI, navigate bar completed
+27/10/18     12:00   17:00   level 3 infinite scroll completed
+28/10/18     07:00   12:00   level 3 add functions
+28/10/18     14:00   20:00   UI designed, some minor bugs fixed
+28/10/18     21:00   22:00   test on CSE machine, prepared for submission

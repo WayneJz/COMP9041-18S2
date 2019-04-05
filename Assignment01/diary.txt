@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------
+Date     | Start | Stop  | Activity   |            Comments             |
+-------------------------------------------------------------------------
+14/09/18 | 09:30 | 10:30 | Reading    | Read the requirements           |
+15/09/18 | 14:30 | 17:00 | Coding     | implement init and add function |
+18/09/18 | 10:00 | 12:00 | Coding     | implement commit function       |
+18/09/18 | 21:00 | 22:00 | Debugging  | Bug found commit - empty message|
+19/09/18 | 08:00 | 12:00 | Coding     | implement log and show function |
+19/09/18 | 20:00 | 22:00 | Debugging  | Bug found show - no commit      |
+21/09/18 | 13:00 | 15:00 | Coding     | modified commit -a -m function  |
+21/09/18 | 15:00 | 16:00 | Coding     | modified add - satisfy commit -a|
+22/09/18 | 09:30 | 12:30 | Coding     | implement rm function           |
+22/09/18 | 14:00 | 16:00 | Debugging  | Bug found rm a then add a       |
+23/09/18 | 07:30 | 11:30 | Debugging  | Bug found rm --force no index   |
+25/09/18 | 11:30 | 15:00 | Coding     | update file compare sub-function|
+25/09/18 | 15:30 | 17:00 | Coding     | implement status function       |
+27/09/18 | 11:30 | 15:00 | Coding     | implement branch function       |
+28/09/18 | 15:30 | 17:00 | Coding     | implement checkout function     |
+29/09/18 | 10:00 | 12:30 | Debugging  | Bug found branch status         |
+29/09/18 | 20:30 | 22:00 | Debugging  | Bug found branch checkout       |
+30/09/18 | 12:30 | 14:00 | Coding     | modified checkout - update index|
+30/09/18 | 14:00 | 16:00 | Debugging  | Bug found multiple branches     |
+30/09/18 | 17:30 | 22:00 | Coding     | modified branch and checkout    |
+01/10/18 | 07:30 | 13:30 | Coding     | implement merge function        |
+02/10/18 | 09:30 | 12:30 | Debugging  | Bug found merge working dir     |
+02/10/18 | 14:30 | 18:30 | Coding     | implement test files            |
+02/10/18 | 20:30 | 23:00 | Debugging  | Bug found merge different length|
+03/10/18 | 07:30 | 09:30 | Coding     | modified merge - update dir     |
+03/10/18 | 12:30 | 15:30 | Coding     | implement test files            |
+-------------------------------------------------------------------------
+Written by Zhou JIANG, z5146092
+-------------------------------------------------------------------------

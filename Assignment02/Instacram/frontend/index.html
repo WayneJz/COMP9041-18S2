@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instacram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>
+</head>
+<body>
+    <!-- This is an example app structure -->
+    <header class='banner'>
+        <h1>Instacram</h1>
+        <ul class='nav'>
+            <li class='nav-item' id="login_button_1" style="cursor:pointer">Login</li>
+            <li class='nav-item' id="register_button_1" style="cursor:pointer">Register</li>
+            <li class='nav-item' id="upload_button_1" style="cursor:pointer">Upload</li>
+            <li class='nav-item' id="follow_button_1" style="cursor:pointer">Follow</li>
+            <li class='nav-item' id="update_button_1" style="cursor:pointer">Update</li>
+            <li class='nav-item' id="profile_button_1" style="cursor:pointer">My Profile</li>
+            <li class='nav-item' id="signout_button_1" style="cursor:pointer">Sign Out</li>
+        </ul>
+    </header>
+
+    <main role='main'>
+        <!-- app goes here --> 
+        <div class="profile" id="profile">
+            <b id="profile_username"></b>
+            <img src="/src/likes.png" height="20px" width="20px" id="imglikes">
+            <b id="profile_likes"></b>
+            <img src="/src/followed.png" height="20px" width="20px" id="imgfollowed">
+            <b id="profile_followed"></b>
+            <img src="/src/following.png" height="20px" width="20px" id="imgfollowing">
+            <b id="profile_following"></b>
+            <img src="/src/post.png" height="20px" width="20px" id="imgpost">
+            <b id="profile_post"></b>
+            <b id="return_feed"></b>
+        </div>
+        <div class="profile" id="following_count">
+            <b id="following_list"></b>
+        </div>
+        <div class="button-span" id="login">
+            <input id="luname" type="text" placeholder="Enter your username here">
+            <input id="lpass" type="password" placeholder="Enter your password here">
+            <li class='nav-item' id="login_button_2" style="cursor:pointer">Login</li>
+        </div>
+        <div class="button-span" id="register">
+            <input id="runame" type="text" placeholder="Enter your username here">
+            <input id="rpass" type="password" placeholder="Enter your password here">
+            <input id="remail" type="text" placeholder="Enter your email here">
+            <input id="rname" type="text" placeholder="Enter your name here">
+            <li class='nav-item' id="register_button_2" style="cursor:pointer">Register</li>
+        </div>
+        <div class="button-span" id="upload">
+            <li class="nav-item"><input type="file" id="uploadfile"/></li>
+            <input id="filedes" type="text" size="35" placeholder="Enter your description here"/>
+            <li class='nav-item' id="upload_button_2" style="cursor:pointer">Upload</li>
+        </div>
+        <div class="button-span" id="follow">
+            <input id="funame" type="text" size="35" placeholder="Enter an username to search">
+            <li class='nav-item' id="follow_button_2" style="cursor:pointer">Search</li>
+        </div>
+        <div class="button-span" id="update">
+            <input id="upemail" type="text" placeholder="Enter your new email">
+            <input id="uppass" type="password" placeholder="Enter your new password">
+            <input id="upname" type="text" placeholder="Enter your new name">
+            <li class='nav-item' id="update_button_2" style="cursor:pointer">Update</li>
+        </div>
+        <div class="button-span" id="follow_option">
+        </div>
+        <div class="large-feed" id='large-feed'>
+            <!-- inject feed data -->
+        </div>
+    </main>
+    <footer>
+        <p>Instacram example, written by Zhou JIANG, some icons referenced from http://clipartmag.com</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

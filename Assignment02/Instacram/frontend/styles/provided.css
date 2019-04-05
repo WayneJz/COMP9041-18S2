@@ -1,0 +1,192 @@
+
+/* base styles, feel free to edit */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    height: 100%;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* global adjustment */
+input[type=text], input[type=password] {
+    height: 22px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:white;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.profile {
+    display: block;
+    margin: 0px auto;
+    padding: 20px 35px;
+    max-height: 20px;
+    background: white;
+    border: 1px solid white;
+    color: darkslateblue;
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.button-span{
+    display: none;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.0975);
+    padding: 10px;
+    background-color:white;
+    min-height: 60px;
+    text-align: right;
+}
+
+.banner > *, footer > * {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+    border: 2px solid bisque;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.post {
+    max-width: 640px;
+    overflow: hidden;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-title {
+    padding: 20px 40px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-time {
+    padding: 10px 40px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: Helvetica;
+    color: darkolivegreen;
+}
+
+.post-description {
+    padding: 10px 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-style: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post-button {
+    display: inline;
+    max-width: 30px;
+    max-height: 30px;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.post-pad {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.post-num {
+    display: inline;
+    padding: 10px 37px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: goldenrod;
+}
+
+.comment-input {
+    padding: 10px 40px;
+    margin: 10px;
+    min-width: 84%;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, sans-serif, Helvetica;
+    border: 2px inset blueviolet;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.post-update {
+    display: none;
+    padding: 10px 40px;
+    margin: 10px;
+    min-width: 84%;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, sans-serif, Helvetica;
+    border: 2px inset blueviolet;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.post-comments {
+    padding: 10px 40px;
+    margin: 10px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid brown;
+    border-radius: 10%;
+}
+
+.post-thumb {
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid snow;
+}
+
+.post-image {
+    width: 640px;
+    height: 640px;
+}
+
+@media screen and (max-width: 500px) {
+    .post {
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,.0975);
+        border-top: 1px solid rgba(0,0,0,.0975); 
+        max-height: 60vh;
+    }
+
+    .post-image {
+        max-width: 100%;
+        max-height: 60vh;
+    }
+
+    #feed > * {
+        flex: 1 1 45%;
+        height: auto;
+    }
+}
+
+/* Add your styles here */
