@@ -7,7 +7,7 @@ Lecturer: Andrew Taylor
 
 ## Main content
 
-1. **Shell**: Unix process, basic shell commands (cut, sort, sed, tr ...) and more in regex. Shell syntax (3 types of quotes, loop ...)
+1. **Shell**: Unix process, basic shell commands (cut, sort, sed, tr ...) and more in regex. Shell syntax (3 types of quotes, condition, loop, test...)
 
 2. **Perl**: Perl syntax, special symbols and special variables, functions (subroutines) definition and calls, strings, arrays and hash arrays. Perl regex and file handling. Perl Modules and CPAN.
 
@@ -22,23 +22,14 @@ Lecturer: Andrew Taylor
 1. [Legit](./Assignment01/legit.pl) - Build a Git system by using Perl, having such functions implemented:
 
     - git init
-
     - git add
-
     - git commit [-a] [-m]
-
     - git log
-
     - git show
-
     - git rm [--force] [--cached]
-
     - git status
-
     - git branch [-d]
-
     - git checkout
-
     - git merge [-m]
 
     **To run the code, simply type `./legit.pl` for instructions.**
